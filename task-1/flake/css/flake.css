@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+#body {
+	background-color: #000;
+	overflow: hidden;
+	position: relative;
+}
+
+#tab {
+	width: 510px;
+	height: 510px;
+	margin: 100px 250px;
+}
+
+.ig {
+	position: absolute;
+	width: 510px;
+	height: 510px;
+	overflow: hidden;
+}
+
+#text {
+	width: 150px;
+	height: 100px;
+	overflow: hidden;
+	margin-top: -600px;
+	margin-left: 900px;color: deeppink;
+	font-size: 15px;
+	font-weight: bold;
+	list-style: none;
+	text-align: center;
+	line-height: 20px;
+}
+#mag{
+	width:100px;
+	height: 210px;
+	position: absolute;
+	left: 790px;
+	top: 50px;
+	overflow: hidden;
+}
+#mag p{
+	color: #FFFFFF;
+}
+.cc{
+	width: 100px;
+	height: 20px;
+	background-color: #00BFFF;
+}
+.MusicPlaySound{
+	width: 500px;
+	height: 500px;
+	margin-top: -800px;
+	margin-left: 800px;
+	position: relative;
+}
+.MusicPlayBg{
+	height: 300px;
+	margin-left: 250px;
+	margin-top: 250px;
+}
+.MusicPlayProcessrotate{
+	height: 320px;
+	position: absolute;
+	left: 247px;
+	top: 240px;
+}
+.MusicPlayBox{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 246px;
+	top: 230px;
+}
+.title{
+	position: absolute;
+	top: 0;
+	color: #fff;
+	left: 130px;
+	top: 45px;
+}
+.name{
+	position: absolute;
+	top: 0;
+	color: deepskyblue;
+	left: 130px;
+	top: 90px;
+}
+.MusicPic{
+}
+.MusicPicButton{
+	height: 45px;
+	position: absolute;
+	padding-top: 142px;
+	padding-left: 130px;
+	color: #FFFFFF;
+}
+.MusicPicName.PicNameRotate{
+	height: 85px;
+	position: absolute;
+	border-radius: 100%;
+	left: 109px;
+	top: 120px;
+}
+.Share.icon{
+	color: #FFFFFF;
+	position: absolute;
+	left: 90px;
+	bottom: 40px;
+}
+.Next.icon{
+	color: #FFFFFF;
+	position: absolute;
+	left: 170px;
+	bottom: 40px;
+}
+.Music32{
+	display: none;
+}
+.MusicPlayProcessrotate{animation:rotate 30s infinite linear;}
+.MusicPlayProcess.pause{animation-play-state:paused;
+-webkit-animation-play-state:paused;}
+.MusicPicName.PicNameRotate{animation:rotate 4s infinite linear;}
+.MusicPicName.pause{animation-play-state:paused;
+-webkit-animation-play-state:paused;}
+@keyframes rotate{
+    from{ transform:rotate(0deg)}
+    to{ transform:rotate(360deg)}
+}
